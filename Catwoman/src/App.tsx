@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Profile from './components/Profile';
 import Header from './components/Header';
-import React from 'react';
+import Project from './components/Project';
 
 
 function  App() {
@@ -10,6 +10,7 @@ function  App() {
     <div  className='App'>
       <Header />
       <Profile />
+      <Project />
       </div>
   );
 }
