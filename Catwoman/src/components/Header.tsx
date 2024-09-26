@@ -5,7 +5,7 @@ const Header = () => {
         {/* You can use a hamburger icon (e.g., from font-awesome or any icon library) */}
         <span>☰</span>
       </div>
-      <h1 className="project-title">frontend-project</h1>
+      <h1 className="name">Rehk Mansa</h1>
     </header>
   );
 };
