@@ -4,11 +4,16 @@
  *
  * Don't forget to update text colors as you cycle between light and dark bg
  */
+import HomePage from "./pages/HomePage";
+import MenuPage from "./pages/MenuPage";
+
 
 export const App = () => {
   return (
     <div className="bg-black h-screen grid place-items-center text-white">
       <button type="button">Brighten</button>
+      <HomePage />
+      <MenuPage />
     </div>
   );
 };
