@@ -6,7 +6,7 @@
  **/
 
 import { useState } from "react";
-import './styles.css';
+import './index.css';
 
 export const App: React.FC = () => {
   const [isBright, setIsBright] = useState<boolean>(false);
