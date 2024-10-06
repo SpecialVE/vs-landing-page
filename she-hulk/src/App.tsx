@@ -1,16 +1,13 @@
-import './index.css'
+import './index.css';
+import TodoList from './components/TodoList';
 
-function App() {
+const App: React.FC = () => {
+  return (
+    <div>
+      <TodoList />
+    </div>
+  );
+};
+          
   
-    <>
-      <div>
-       
-      </div>
-      <h1>\</h1>
-      
-     
-    </>
-
-}
-
 export default App;
