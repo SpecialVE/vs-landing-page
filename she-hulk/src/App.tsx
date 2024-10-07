@@ -1,13 +1,15 @@
-import './index.css';
-import TodoList from './components/TodoList';
+import { useState } from "react";
+import { todosT } from "./types/todo";
+import layout from "./Layout";
 
-const App: React.FC = () => {
+function App() {
+  const [todos, setTodos] = useState<todosT[]>([]);
+
   return (
-    <div>
-      <TodoList />
-    </div>
+    <Layout>
+      <span>test</span>
+    </Layout>
   );
-};
-          
-  
+}
+
 export default App;
