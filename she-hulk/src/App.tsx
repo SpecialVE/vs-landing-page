@@ -1,10 +1,10 @@
 import { useState } from "react";
-import { todosT } from "./types/todo";
+import { TTodo } from "./types/todo";
 import Layout from "./Layout";
 import InputBar from "./components/InputBar";
 
 function App() {
-  const [todos, setTodos] = useState<todosT[]>([]);
+  const [todos, setTodos] = useState<TTodo[]>([]);
   const [filter, setFilter] = useState<"all" | "uncompleted">("all");
 
   return (

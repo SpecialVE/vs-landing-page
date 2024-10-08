@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import { todosT } from "../../types/todo";
+import { TTodo } from "../../types/todo";
 
 interface InputBarProps {
-  todos: todosT[];
-  setTodos: React.Dispatch<React.SetStateAction<todosT[]>>;
+  todos: TTodo[];
+  setTodos: React.Dispatch<React.SetStateAction<TTodo[]>>;
 }
 
 const InputBar = ({ todos, setTodos }: InputBarProps) => {

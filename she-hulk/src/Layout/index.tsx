@@ -5,7 +5,7 @@ interface LayoutProps {
 }
 
 const index = ({ children }): LayoutProps => {
-  return <div className="w-[650px] h-fit bg-[#3A4750] p-7 rounded-lg">{children}</div>;
+  return <div className="max-w-650 h-auto bg-[#3A4750] p-7 rounded-lg">{children}</div>;
 };
 
-export default layout;
+export default Layout;
