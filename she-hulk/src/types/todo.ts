@@ -1,5 +1,5 @@
-export type TTodo = {
+export interface Todo {
   id: number;
   title: string;
   completed: boolean;
-};
+}
